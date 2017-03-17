@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSerra.Pages.FrontPage">
+
+    <StackLayout x:Name="SensorsPage">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="Temperature" Grid.Column="0" Grid.Row="0">Temperatura:</Label>
+            <Label x:Name="Light" Grid.Column="1" Grid.Row="0">Luce:</Label>
+            <Label x:Name="Humidity" Grid.Column="0" Grid.Row="1">Umidità:</Label>
+            <Label x:Name="WaterLevel" Grid.Column="1" Grid.Row="1">Livello dell'acqua:</Label>
+        </Grid>
+    </StackLayout>
+</ContentPage>
